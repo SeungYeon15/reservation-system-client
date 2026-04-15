@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# 🎟️ Ticket Booking Web (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+티켓 예매 웹 애플리케이션의 프론트엔드 프로젝트입니다.  
+React를 기반으로 구현되었으며, 백엔드 API와 연동하여 동작합니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ 주요 기능
 
-### `npm start`
+- 사용자 로그인 / 로그아웃
+- 티켓 목록 조회 및 예매
+- 로그인 상태에 따른 접근 제어 및 UI 변경
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧱 기술 스택
 
-### `npm test`
+- React
+- React Router
+- Axios
+- Context API (또는 상태관리 방식 기입)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔐 인증 방식
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+세션 기반 인증을 사용하며,  
+로그인 상태는 서버(Spring Boot)의 세션과 연동하여 관리됩니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 실행 방법
 
-### `npm run eject`
+### 1. 프로젝트 설치
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. 개발 서버 실행
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+브라우저에서 아래 주소로 접속합니다:
+http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚧 향후 개발 예정
 
-## Learn More
+- 예매 내역 조회 기능
+- 관리자 페이지 추가
+- 결제 기능 연동
+- 허니팟 필드를 이용한 봇/매크로 방지 기능
+- 예외 처리 및 에러 핸들링 강화
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📌 참고
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 본 프로젝트는 학습 및 개인 포트폴리오 용도로 제작되었습니다.
+- 백엔드는 별도 서버(Spring Boot)에서 실행됩니다.
