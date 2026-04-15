@@ -1,4 +1,4 @@
-# 🎟️ Ticket Booking Web (Frontend)
+# 🎟️ StagePick (Frontend)
 
 티켓 예매 웹 애플리케이션의 프론트엔드 프로젝트입니다.  
 React를 기반으로 구현되었으며, 백엔드 API와 연동하여 동작합니다.
